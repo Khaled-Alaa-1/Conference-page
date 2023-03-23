@@ -42,7 +42,7 @@ table {
 	border-spacing: 0;
 }
 
-*{
+p, h1 , div ,h5 ,a{
   font-family: Lato Regular, sans-serif;
 }
 
@@ -63,7 +63,7 @@ table {
 }
 
 body {
-  width: 375px;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   color: #272a31;
@@ -553,7 +553,6 @@ body.mobile-menu-open {
   }
 
   .nav-bar {
-    padding: 0 100px;
     width: 100%;
     position: fixed;
     top: 29px;
