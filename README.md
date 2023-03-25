@@ -77,6 +77,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+[![Project presentation: video demo](https://www.loom.com/share/a6b3e7bc55924d5f99140bcb8eec30d1)]
+
 > Add a link to your deployed project.
 - [Live Demo Link]( https://khaled-alaa-1.github.io/Conference-page/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
