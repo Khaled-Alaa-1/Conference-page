@@ -4,10 +4,131 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
-<body>
+  <body class="body">
+    <nav class="mobile-menu hide">
+      <img class="mobile-menu-close" src="images/pop-close.png" alt="close">
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-list-element">Program</li>      
+        <li class="mobile-menu-list-element" id="about-link"><a href="about.html">About</a></li>
+        <li class="mobile-menu-list-element">Join</li>
+        <li class="mobile-menu-list-element">Sponsor</li>
+        <li class="mobile-menu-list-element">News</li>
+        <li class="mobile-menu-list-element">CC Campaign</li>
+      </ul>
+    </nav>
+    <div class="mainest">
+      <div class="home" id="home">
+        <div class="nav-bar-and-hero">
+          <nav class="top-dark-bar">
+            <ul class="social-media-links">
+              <li><img src="images/facebook.png" alt="facebook icon" class="facebook"></li>
+              <li><img src="images/twitter.png" alt="twitter icon" class="twitter"></li>
+              <li>English</li>
+              <li>My Page</li>
+              <li>Logout</li>
+            </ul>
+          </nav>
+          <nav class="nav-bar">
+            <div class="ham">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+            <a class="ham-desk" href="#home">
+              <img src="images/cc_image.png" alt="Free thinking image and logo" class="cc_image">
+            </a>
+            <ul class="nav-desk-right">
+              <li class="nav-desk about" id="nav-desk-about"><a href="about.html">About</a></li>
+              <li class="nav-desk">Program</li>
+              <li class="nav-desk">Join</li>
+              <li class="nav-desk">Sponsor</li>
+              <li class="nav-desk">News</li>
+              <li class="nav-desk-cc-campaign">CC Campaign</li>
+            </ul>
+          </nav>
+          <section class="hero">
+            <div class="hello">"Hello! future developers"</div>
+            <h1 class="title">web development <br> course <br> 2023</h1>
+            <p class="description">Welcome to the third global summit of Free Thinking and Exceptisism when we will share the value of reason, logic and evidence. It will take place in Korea this Oct. 2020.</p>
+            <div class="date">2023.1.12(THU) ~ 13(FRI)</div>
+            <footer class="national">@ National Museum of Korea, Art Center Nabi and more</footer>
+          </section>
+        </div>
+        <section class="program">
+          <header>
+            <div class="text">Main Program</div>
+            <div class="horizontal-rule"></div>
+          </header>
+          <ul class="elements">
+            <li class="element">
+              <img class="icon" src="images/program_lecture.svg" alt="lecture icon">
+              <div class="title">Lecture</div>
+              <h5 class="description">Lorem ipsum  elit. Impedit id rerum ex neque non.</h5>
+            </li>
+            <li class="element">
+              <img class="icon" src="images/program_cc_exhibition.svg" alt="exhibition icon">
+              <div class="title">CC Exhibition</div>
+              <h5 class="description">Lorem ipsum  elit. Minima ipsa ad mollitia atque?</h5>
+            </li>
+            <li class="element">
+              <img class="icon" src="images/program_forum.svg" alt="forum icon">
+              <div class="title">Forum</div>
+              <h5 class="description">Lorem ip omnis ex consequatur hic cumque lorem!</h5>
+            </li>
+            <li class="element">
+              <img class="icon" src="images/program_workshop.svg" alt="workshop icon">
+              <div class="title">Workshop</div>
+              <h5 class="description">Lorem ipsum  elit. Doloremque corporis aut </h5>
+            </li>
+            <li class="element">
+              <img class="icon" src="images/program_cc_ignite.svg" alt="cc ignite icon">
+              <div class="title">CC Ignite</div>
+              <h5 class="description">Lorem ipsum dolore ut itaque cum distinctio!</h5>
+            </li>
+          </ul>        
+          <footer class="join">Join web development 2023</footer>        
+          <footer class="join-desk"><a href="about.html">SEE THE WHOLE PROGRAM</a></footer>
+        </section>
+        <section class="speakers">
+          <div class="title-6">Featured Speakers</div>        
+          <div class="horizontal-rule"></div>
+          <div class="speaker-container">
+          </div>
+          <button class="more">
+            <div class="text">MORE</div>
+            <img class="down_arrow" src="images/down_arrow.svg" alt="down arrow">
+          </button>
+        </section>
+        <section class="partner">
+          <div class="title3">Partner</div>
+          <div class="horizontal-rule"></div>
+          <ul class="partners">
+            <li><img src="images/mozilla.svg
+              " alt="mozilla icon" class="partner-element"></li>
+            <li><img src="images/google.svg" alt="google icon" class="partner-element"></li>
+            <li><img src="images/naver.svg" alt="naver icon" class="partner-element"></li>
+            <li><img src="images/daumkakaologo.svg" alt="daumkakaologo icon" class="partner-element"></li>
+            <li><img src="images/airbnb.svg" alt="airbnb icon" class="partner-element"></li>
+          </ul>
+        </section>
+        <footer class="footer-cc">
+          <img src="images/cc_image.png" alt="Free thinking image and logo" class="left cc_image">
+          <h5 class="right">2023  Korea. Some Rights Reserved.</h5>
+          <h5 class="right-desk">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다. <br>
+            자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</h5>
+        </footer>
   
+      </div> 
+    </div>
+    <script src="script.js"></script>
+    <script src="about.js"></script>
+
 </body>
 </html>

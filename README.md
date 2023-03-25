@@ -77,8 +77,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-- [Live Demo Link]( https://khaled-alaa-1.github.io/Portfolio-setup/)
+- [Project presentation: video demo](https://www.loom.com/share/a6b3e7bc55924d5f99140bcb8eec30d1)
+
+- [Live Demo Link]( https://khaled-alaa-1.github.io/Conference-page/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -154,7 +155,8 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank...
+I would like to thank to Cindy Shin for the template used by inspiring this project.  
+[www.behance.net](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +164,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Khaled-Alaa-1/Portfolio-setup/tree/main/MIT.md) licensed.
+This project is [MIT](https://github.com/Khaled-Alaa-1/Conference-page/tree/Mobile-and-Desktop-versions-/MIT.md) licensed.
 
 
 
